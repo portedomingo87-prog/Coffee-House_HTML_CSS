@@ -42,3 +42,51 @@ body {
 a:hover {
     color: rgb(3, 138, 3);
 }
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding: 60px 40px;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.hero-content, .hero-image {
+    flex: 1;
+}
+
+.titulo {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: rgb(136, 31, 31);
+    font-family: "sans-serif";
+    margin-top: 0;
+    line-height: 0.95;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgb(32, 32, 32);
+}
+
+.img2 {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.boton {
+    background-color: rgb(136, 31, 31);
+    color: rgb(194, 191, 191);
+    padding: 12px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.boton:hover {
+    background-color: rgb(3, 138, 3);
+    color: rgb(194, 191, 191);
+}
